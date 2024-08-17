@@ -74,9 +74,9 @@
 </template>
 
 <script>
-  import resume from '../conf/resume.mazey';
+  import resume from '../conf/resume';
   import MResumeExperience from './m-resume-experience.vue';
-  // import { addStyle } from 'mazey'
+
   export default {
     name: 'm-resume',
     components: {
@@ -89,10 +89,8 @@
       };
     },
     created () {
-      document.title = this.resume.pageAndFileName; // `${this.name}-${this.position}-${this.experience.replace(/\s/gmi, '')}`
+      document.title = this.resume.pageAndFileName;
     },
-    mounted () {
-      // addStyle('@media screen { .m-layout { background-color: #f2f2f2; } }', { id: 'resume-fill-in' })
-    },
+    mounted () {},
   };
 </script>

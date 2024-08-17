@@ -2,6 +2,8 @@
 
 这是一个便捷的 JSON 转简历工具。
 
+[预览](#预览) | [下载](#下载) | [使用指南](#使用指南) | [本地启动](#本地启动)
+
 ## 预览
 
 ![Resume Demo](./images/json-to-resume-print-v1-w800.jpg)
@@ -49,3 +51,7 @@ Build for production:
 ```bash
 npm run build
 ```
+
+## License
+
+This software is released under the terms of the [MIT license](https://github.com/mazeyqian/json-to-resume/blob/main/LICENSE).

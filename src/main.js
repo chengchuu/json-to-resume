@@ -3,7 +3,6 @@ import Layout from './components/m-layout';
 import router from './router';
 import BootstrapVue from 'bootstrap-vue';
 import './style/bootstrap.scss';
-import './style/__m-mazey.scss';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
 Vue.use(BootstrapVue);
