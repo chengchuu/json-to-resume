@@ -4,7 +4,7 @@ export default {
   personInfo: {
     left: [
       {
-        name: '姓名aaa',
+        name: '姓名',
         value: '钱程',
       },
       {
@@ -66,7 +66,7 @@ export default {
   companies: [
     {
       name: '上海哔哩哔哩科技有限公司',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/bilibili-logo.png',
+      iconLink: 'https://i.mazey.net/uploads/2024/04/bilibili-logo.png',
       timeRangeStart: '2022 年 5 月',
       timeRangeEnd: '至今',
       tags: [
@@ -81,13 +81,13 @@ export default {
       ],
       department: '游戏发行事业部 - 游戏业务组',
       position: '前端工程师',
-      description: `负责哔哩哔哩游戏中心前端业务迭代和维护：
+      description: `哔哩哔哩游戏中心联运&独代业务迭代和维护：
         <ul class="list-group list-group-flush resume-list-number">
           <li class="list-group-item">
-            游戏中心：负责游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>。
+            游戏中心：游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>。
           </li>
           <li class="list-group-item">
-            <a href="https://mazey.cn/t/bth" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，负责游戏全生命周期的管理，支持游戏接入及后续运营管理。
+            <a href="https://mazey.cn/t/bth" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，游戏全生命周期的管理，支持游戏接入及后续运营管理。
           </li>
           <li class="list-group-item">
             <a href="https://mazey.cn/t/bti" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持。
@@ -96,7 +96,7 @@ export default {
             <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供。
           </li>
           <li class="list-group-item">
-            游戏中心通用组件：封装常用的前端组件，包括埋点上报、按钮、卡片和游戏预约等。
+            游戏中心通用组件：封装常用的前端组件，包括埋点上报、接口请求、分享、游戏预约和下载等。
           </li>
           <li class="list-group-item">
             游戏中心管理后台：为内部运营服务，支持游戏、资讯、评论、礼包、推送、预约和权限管理。
@@ -111,20 +111,26 @@ export default {
       `,
       products: [
         {
+          name: '三国：谋定天下',
+          iconLink: 'https://i.mazey.net/uploads/2024/08/nslg-icon.png',
+          link: 'https://www.biligame.com/detail/?id=110267',
+          bgcColor: 'rgb(171, 136, 81)',
+        },
+        {
           name: '公主连结Re:Dive',
-          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/kusano-yui.png',
+          iconLink: 'https://i.mazey.net/uploads/2024/04/kusano-yui.png',
           link: 'https://www.biligame.com/detail/?id=102216',
           bgcColor: 'rgb(55, 67, 127)',
         },
         {
           name: '坎公骑冠剑',
-          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/guardian-tales.png',
+          iconLink: 'https://i.mazey.net/uploads/2024/04/guardian-tales.png',
           link: 'https://www.biligame.com/detail/?id=102567',
           bgcColor: 'rgb(8, 35, 60)',
         },
         {
           name: '命运-冠位指定（Fate/GO）',
-          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/fgo.png',
+          iconLink: 'https://i.mazey.net/uploads/2024/04/fgo.png',
           link: 'https://www.biligame.com/detail/?id=49',
           bgcColor: 'rgb(57, 87, 172)',
         },
@@ -132,7 +138,8 @@ export default {
     },
     {
       name: '上海莉莉丝科技股份有限公司',
-      iconName: 'lilith',
+      // iconName: 'lilith',
+      iconLink: 'https://i.mazey.net/uploads/2024/08/lilith-favicon.png',
       timeRangeStart: '2020 年 8 月',
       timeRangeEnd: '2022 年 4 月',
       tags: [
@@ -146,18 +153,30 @@ export default {
         },
       ],
       department: '平台产品中心 - 游戏组件组',
-      position: '前端&Node.js工程师',
-      description: '搭建游戏礼包兑换码、会员中心，维护游戏官网、社区、支付系统。',
+      position: '前端&Node.js 工程师',
+      description: `搭建游戏会员中心、礼包兑换码，维护游戏官网、社区、支付系统：
+        <ul class="list-group list-group-flush resume-list-number">
+          <li class="list-group-item">
+            社区：覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。
+          </li>
+          <li class="list-group-item">
+            会员中心：承载玩家会员信息展示和礼包中心，访问地址：<a href="https://vip.lilith.com/" target="_blank" rel="noopener">https://vip.lilith.com</a>。
+          </li>
+          <li class="list-group-item">
+            礼包兑换码：搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>。
+          </li>
+        </ul>
+      `,
       products: [
         {
           name: '剑与远征',
-          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/afk-favicon.png',
+          iconLink: 'https://i.mazey.net/uploads/2024/04/afk-favicon.png',
           link: 'https://afk-cn.lilith.com/',
           bgcColor: '#86724d',
         },
         {
           name: '万国觉醒',
-          iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/rok-favicon.png',
+          iconLink: 'https://i.mazey.net/uploads/2024/04/rok-favicon.png',
           link: 'https://rok-cn.lilith.com/',
           bgcColor: '#aa8f69',
         },
@@ -165,7 +184,7 @@ export default {
     },
     {
       name: '上海基分文化传播有限公司',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/qtt-logo.png',
+      iconLink: 'https://i.mazey.net/uploads/2024/04/qtt-logo.png',
       timeRangeStart: '2018 年 12 月',
       timeRangeEnd: '2020 年 8 月',
       tags: [
@@ -187,12 +206,24 @@ export default {
         },
       ],
       department: '技术中心 - 游戏组',
-      position: '前端&Golang工程师',
-      description: '搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK。',
+      position: '前端&Go 工程师',
+      description: `搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK：
+        <ul class="list-group list-group-flush resume-list-number">
+          <li class="list-group-item">
+            游戏中心 JS-SDK：给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>。
+          </li>
+          <li class="list-group-item">
+            CMS 后台 - 广告配置：随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题；通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。
+          </li>
+          <li class="list-group-item">
+            游戏版本和<a href="https://blog.mazey.net/1668.html" target="_blank" rel="noopener">灰度控制</a>：打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。
+          </li>
+        </ul>
+      `,
     },
     {
       name: '平纳科信息咨询有限公司',
-      iconName: 'pinnacle',
+      iconLink: 'https://i.mazey.net/uploads/2024/04/pinnacle-logo.png',
       timeRangeStart: '2018 年 7 月',
       timeRangeEnd: '2018 年 12 月',
       tags: [
@@ -211,11 +242,11 @@ export default {
       ],
       department: '技术部',
       position: '前端工程师',
-      description: '负责公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作。',
+      description: '公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作。',
     },
     {
       name: '苏宁云商集团股份有限公司',
-      iconName: 'suning',
+      iconLink: 'https://i.mazey.net/uploads/2024/08/suning-favicon.ico',
       timeRangeStart: '2017 年 11 月',
       timeRangeEnd: '2018 年 4 月',
       tags: [
@@ -226,11 +257,11 @@ export default {
       ],
       department: '苏宁技术研究院 - 数据分析部',
       position: '前端工程师',
-      description: '负责集团数据可视化分析的前端工作，使苏宁易购线下线上促销活动的数据更加直观。',
+      description: '集团数据可视化分析的前端工作，使苏宁易购线下线上促销活动的数据更加直观。',
     },
     {
       name: '江苏邦宁科技有限公司',
-      iconName: 'bangning',
+      iconLink: 'https://i.mazey.net/uploads/2024/08/top-favicon.ico',
       timeRangeStart: '2016 年 6 月',
       timeRangeEnd: '2017 年 8 月',
       tags: [
@@ -248,12 +279,12 @@ export default {
         },
       ],
       department: '主站研发部',
-      position: 'PHP工程师',
+      position: 'PHP 工程师',
       description: '参与公司域名注册局网站 <a href="https://www.nic.top/" target="_blank" rel="noopener">nic.top</a> 从后端到前端的开发和维护，承担服务器运维工作。',
     },
   ],
-  _projects: [/* Disable */],
-  projects: [
+  projects: [/* Disable */],
+  _projects: [
     {
       name: '莉莉丝游戏（万国觉醒&剑与远征&战火勋章）社区',
       timeRangeStart: '2020 年 10 月',
@@ -564,46 +595,8 @@ export default {
   _individualProjects: [/* Disable */],
   individualProjects: [
     {
-      name: '小栗读书会',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/gray-6ce2b956-144x144-1.png',
-      tags: [
-        {
-          name: 'Web',
-          bgc: 'blue',
-        },
-        {
-          name: '分享',
-          bgc: 'green',
-        },
-        {
-          name: 'PWA',
-          bgc: 'purple',
-        },
-      ],
-      description: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/arl" target="_blank" rel="noopener">mazey.cn/t/arl</a>`,
-    },
-    {
-      name: '上海地铁运营系统',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/metro-144x144-1.png',
-      tags: [
-        {
-          name: 'Web',
-          bgc: 'blue',
-        },
-        {
-          name: '数据可视化',
-          bgc: 'blue',
-        },
-        {
-          name: 'D3.js',
-          bgc: 'd3',
-        },
-      ],
-      description: `上海地铁列车实时运行系统，DEMO 地址：<a href="https://mazey.cn/t/fe" target="_blank" rel="noopener">mazey.cn/t/fe</a>`,
-    },
-    {
       name: 'npm',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/npm-icon-144x144-1.png',
+      iconLink: 'https://i.mazey.net/uploads/2022/03/npm-icon-144x144-1.png',
       tags: [
         {
           name: '库',
@@ -621,26 +614,29 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            Mazey：工作中使用的前端函数库，访问地址：<a href="https://mazey.cn/t/btk" target="_blank" rel="noopener">github.com/mazeyqian/mazey</a>
+            Mazey：工作中使用的前端函数库，访问地址：<a href="https://mazey.cn/t/btk" target="_blank" rel="noopener">github.com/mazeyqian/mazey</a><span class="resume-timeline">（2019 年 - 至今）</span>。
           </li>
           <li class="list-group-item">
-            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://mazey.cn/t/btl" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a>
+            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://mazey.cn/t/btl" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wechat-launch-app</a><span class="resume-timeline">（2023 年）</span>。
           </li>
           <li class="list-group-item">
-            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://mazey.cn/t/btm" target="_blank" rel="noopener">github.com/mazeyqian/aliyunoss-cli</a>
+            Taro Utils：跨端框架 Taro 工具箱，侧重于小程序，访问地址：<a href="https://mazey.cn/t/bty" target="_blank" rel="noopener">github.com/mazeyqian/mazey-taro-utils</a><span class="resume-timeline">（2024 年）</span>。
           </li>
           <li class="list-group-item">
-            Lazy Load Images：图片懒加载，访问地址：<a href="https://mazey.cn/t/btn" target="_blank" rel="noopener">github.com/mazeyqian/mazey-lazy-load-images</a>
+            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://mazey.cn/t/btm" target="_blank" rel="noopener">github.com/mazeyqian/aliyunoss-cli</a><span class="resume-timeline">（2020 年）</span>。
           </li>
           <li class="list-group-item">
-            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://mazey.cn/t/bto" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a>
+            Lazy Load Images：图片懒加载，访问地址：<a href="https://mazey.cn/t/btn" target="_blank" rel="noopener">github.com/mazeyqian/mazey-lazy-load-images</a><span class="resume-timeline">（2022 年）</span>。
+          </li>
+          <li class="list-group-item">
+            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://mazey.cn/t/bto" target="_blank" rel="noopener">github.com/mazeyqian/mazey-wordpress-utils</a><span class="resume-timeline">（2022 年）</span>。
           </li>
         </ul>
       `,
     },
     {
       name: 'Go Packages',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2023/11/bobac-v2.png',
+      iconLink: 'https://i.mazey.net/uploads/2023/11/bobac-v2.png',
       tags: [
         {
           name: '库',
@@ -654,17 +650,58 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://mazey.cn/t/btp" target="_blank" rel="noopener">github.com/mazeyqian/asiatz</a>
+            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://mazey.cn/t/btp" target="_blank" rel="noopener">github.com/mazeyqian/asiatz</a><span class="resume-timeline">（2023 年）</span>。
           </li>
           <li class="list-group-item">
-            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://mazey.cn/t/btq" target="_blank" rel="noopener">github.com/mazeyqian/gurl</a>
+            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://mazey.cn/t/btq" target="_blank" rel="noopener">github.com/mazeyqian/gurl</a><span class="resume-timeline">（2023 年）</span>。
+          </li>
+          <li class="list-group-item">
+            GMdTable：将切片转换为 Markdown 表格，多用于生成文档，访问地址：<a href="https://mazey.cn/t/btz" target="_blank" rel="noopener">github.com/tzfqh/gmdtable</a><span class="resume-timeline">（2024 年）</span>。
           </li>
         </ul>
       `,
     },
     {
+      name: '小栗读书会',
+      iconLink: 'https://i.mazey.net/uploads/2022/03/gray-6ce2b956-144x144-1.png',
+      tags: [
+        {
+          name: 'Web',
+          bgc: 'blue',
+        },
+        {
+          name: '分享',
+          bgc: 'green',
+        },
+        {
+          name: 'PWA',
+          bgc: 'purple',
+        },
+      ],
+      description: `提供一个读书分享的平台，访问地址：<a href="https://mazey.cn/t/arl" target="_blank" rel="noopener">mazey.cn/t/arl</a><span class="resume-timeline">（2021 年）</span>。`,
+    },
+    {
+      name: '上海地铁运营系统',
+      iconLink: 'https://i.mazey.net/uploads/2022/03/metro-144x144-1.png',
+      tags: [
+        {
+          name: 'Web',
+          bgc: 'blue',
+        },
+        {
+          name: '数据可视化',
+          bgc: 'blue',
+        },
+        {
+          name: 'D3.js',
+          bgc: 'd3',
+        },
+      ],
+      description: `上海地铁列车实时运行系统，Demo 地址：<a href="https://mazey.cn/t/fe" target="_blank" rel="noopener">mazey.cn/t/fe</a>。`,
+    },
+    {
       name: '工具类项目',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2022/03/logo-dark-circle-144x144-1.png',
+      iconLink: 'https://i.mazey.net/uploads/2022/03/logo-dark-circle-144x144-1.png',
       tags: [
         {
           name: 'Web',
@@ -686,13 +723,13 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            短链接/短网址在线生成，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>
+            短链接/短网址在线生成，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>。
           </li>
           <li class="list-group-item">
-            前端性能监控，DEMO 地址：<a href="https://mazey.cn/t/arm" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>
+            前端性能监控，Demo 地址：<a href="https://mazey.cn/t/arm" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>。
           </li>
           <li class="list-group-item">
-            静态资源上传，DEMO 地址：<a href="https://mazey.cn/t/aeo" target="_blank" rel="noopener">mazey.cn/t/aeo</a>
+            静态资源上传，Demo 地址：<a href="https://mazey.cn/t/aeo" target="_blank" rel="noopener">mazey.cn/t/aeo</a>。
           </li>
         </ul>
       `,
@@ -736,22 +773,32 @@ export default {
   _others: [/* Disable */],
   others: [
     {
+      name: '公众号文章：Promise 异步编程的理解和使用',
+      iconLink: 'https://i.mazey.net/uploads/2024/04/bilibili-logo.png',
+      linkContent: '哔哩哔哩技术',
+      link: 'https://mp.weixin.qq.com/s/S_6YAcbZlcWIjcWdo5toXQ',
+      description: '<span class="resume-timeline">（2023 年）</span>。',
+    },
+    {
+      name: '公众号文章：前端性能和加载体验优化实践',
+      iconLink: 'https://i.mazey.net/uploads/2024/04/tencent-cloud-400x400-1.png',
+      linkContent: '腾讯云',
+      link: 'https://mp.weixin.qq.com/s/W4MPYNZS2k2wuFtHqmm47w',
+      description: '<span class="resume-timeline">（2022 年）</span>。',
+    },
+    {
       name: '专利：基于HTML5协议的浏览器全屏显示方法及显示装置',
       iconName: 'html5',
       linkContent: 'CN110083409A',
       link: 'https://i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF',
+      description: '<span class="resume-timeline">（2018 年）</span>。',
     },
     {
-      name: '公众号文章：Promise 异步编程的理解和使用',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/bilibili-logo.png',
-      linkContent: '哔哩哔哩技术',
-      link: 'https://mp.weixin.qq.com/s/S_6YAcbZlcWIjcWdo5toXQ',
-    },
-    {
-      name: '公众号文章：前端性能和加载体验优化实践',
-      iconLink: 'https://blog.mazey.net/wp-content/uploads/2024/04/tencent-cloud-400x400-1.png',
-      linkContent: '腾讯云',
-      link: 'https://mp.weixin.qq.com/s/W4MPYNZS2k2wuFtHqmm47w',
+      name: '作品：Bootstrap 实战，从零开始边学边练',
+      iconLink: 'https://i.mazey.net/uploads/2024/08/douban-read-favicon.ico',
+      linkContent: '豆瓣阅读',
+      link: 'https://read.douban.com/column/6946508/',
+      description: '<span class="resume-timeline">（2017 年）</span>。',
     },
   ],
   language: 'ZH',

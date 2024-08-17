@@ -58,6 +58,7 @@
                 [<a :href="patent.link" target="_blank" rel="noopener">{{ patent.linkContent }}</a>]
               </span>
             </span>
+            <span v-if="patent.description" v-html="patent.description"></span>
           </div>
         </div>
       </div>
@@ -74,7 +75,7 @@
 </template>
 
 <script>
-  import resume from '../conf/resume';
+  import resume from '../conf/resume.mazey';
   import MResumeExperience from './m-resume-experience.vue';
 
   export default {

@@ -312,7 +312,7 @@ $colours: map-merge(
       height: 23px;
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: left top;
+      background-position: left center;
     }
 
     .project-logo {
@@ -597,5 +597,9 @@ $colours: map-merge(
     @media print {
       display: none;
     }
+  }
+
+  .resume-timeline {
+    font-style: italic;
   }
 }

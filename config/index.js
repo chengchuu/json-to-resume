@@ -11,7 +11,7 @@ module.exports = {
     index: path.resolve(__dirname, '../dist/index.html'),
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    // Your absoulte path may be different, such as `/`, `/x/`, `/x/resume/`, `/y/`, etc.
+    // Your absoulte path may be different, such as `/`, `/x/path/`, `/x/`, `/x/y/z/`, etc.
     assetsPublicPath: '/',
     productionSourceMap: false,
     // Gzip off by default as many popular static hosts such as
