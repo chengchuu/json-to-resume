@@ -4,7 +4,7 @@ export default {
   personInfo: {
     left: [
       {
-        name: '姓名',
+        name: '姓名aaa',
         value: '钱程',
       },
       {
