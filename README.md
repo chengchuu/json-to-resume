@@ -12,7 +12,7 @@
 
 ## 下载
 
-进入 [Releases](https://github.com/mazeyqian/json-to-resume/releases) 页面下载最新版本：
+进入 [Releases](https://github.com/chengchuu/json-to-resume/releases) 页面下载最新版本：
 
 ![Releases](./images/json-to-resume-releases-145811-w800.png)
 
@@ -62,4 +62,4 @@ npm run build
 
 ## License
 
-This software is released under the terms of the [MIT license](https://github.com/mazeyqian/json-to-resume/blob/main/LICENSE).
+This software is released under the terms of the [MIT license](https://github.com/chengchuu/json-to-resume/blob/main/LICENSE).
