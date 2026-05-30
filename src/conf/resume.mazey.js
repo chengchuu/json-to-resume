@@ -211,9 +211,9 @@ export default {
           <li class="list-group-item">
             游戏中心 JS-SDK：给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>。
           </li>
-          <li class="list-group-item">
+          <!-- li class="list-group-item">
             CMS 后台 - 广告配置：随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题；通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。
-          </li>
+          </li -->
           <li class="list-group-item">
             游戏版本和<a href="https://blog.mazey.net/1668.html" target="_blank" rel="noopener">灰度控制</a>：打通游戏测试、灰度、发布流程，重点游戏做版本更新的时候，先放量一部分用户体验游戏，观察数据和客诉没问题之后再全量，从而保证头部游戏（20+）的稳定性，节约了运营大量的验收成本。
           </li>
@@ -282,8 +282,8 @@ export default {
       description: "参与公司域名注册局网站 <a href=\"https://www.nic.top/\" target=\"_blank\" rel=\"noopener\">nic.top</a> 从后端到前端的开发和维护，承担服务器运维工作。",
     },
   ],
-  projects: [/* Disable */],
-  _projects: [
+  _projects: [/* Disable */],
+  projects: [
     {
       name: "莉莉丝游戏（万国觉醒&剑与远征&战火勋章）社区",
       timeRangeStart: "2020 年 10 月",
@@ -495,6 +495,7 @@ export default {
           value: "由于早期的业务快速迭代，游戏中心 H5 页面存在加载慢体验差的问题，为了提升页面转化率和用户体验，对首页进行了一次短平快的优化，首屏时间从 3357ms <b>减少到 917ms（-72%）</b>，页面折损率<b>降低 3%</b>，优化过程：<a href=\"https://blog.mazey.net/1503.html\" target=\"_blank\" rel=\"noopener\">mazey.cn/t/fh</a>",
         },
       ],
+      hideInPrint: true,
     },
     {
       name: "PinnacleSolution 智能招聘系统",
@@ -732,6 +733,7 @@ export default {
           </li>
         </ul>
       `,
+      hideInPrint: true,
     },
   ],
   skills: [/* Disable */],
