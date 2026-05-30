@@ -1,6 +1,6 @@
 export default {
   title: "前端工程师",
-  pageAndFileName: "钱程-前端工程师-7年",
+  pageAndFileName: "钱程-前端-10年",
   personInfo: {
     left: [
       {
@@ -17,7 +17,7 @@ export default {
       // },
       {
         name: "出生",
-        value: "1993 年 3 月",
+        value: "1993 年",
       },
       {
         name: "电话",
@@ -29,7 +29,7 @@ export default {
       },
       {
         name: "工作年限",
-        value: "7 年",
+        value: "10 年",
       },
     ],
     right: [
@@ -159,10 +159,10 @@ export default {
             社区：覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。
           </li>
           <li class="list-group-item">
-            会员中心：承载玩家会员信息展示和礼包中心，访问地址：<a href="https://vip.lilith.com/" target="_blank" rel="noopener">https://vip.lilith.com</a>。
+            会员中心：承载玩家会员信息展示和礼包中心，访问地址：<a href="https://vip.lilith.com/" target="_blank" rel="noopener">https://vip.lilith.com</a>
           </li>
           <li class="list-group-item">
-            礼包兑换码：搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>。
+            礼包兑换码：搭建日服礼包兑换码网站，并迭代至国际化，访问地址：<a href="https://cdkey.lilith.com/afk-global" target="_blank" rel="noopener">https://cdkey.lilith.com/afk-global</a>
           </li>
         </ul>
       `,
@@ -182,7 +182,7 @@ export default {
       ],
     },
     {
-      name: "上海基分文化传播有限公司",
+      name: "上海基分文化传播有限公司<span class=\"project-name-small\">（趣头条）</span>",
       iconLink: "https://i.mazey.net/uploads/2024/04/qtt-logo.png",
       timeRangeStart: "2018 年 12 月",
       timeRangeEnd: "2020 年 8 月",
@@ -209,7 +209,7 @@ export default {
       description: `搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK：
         <ul class="list-group list-group-flush resume-list-number">
           <li class="list-group-item">
-            游戏中心 JS-SDK：给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>。
+            游戏中心 JS-SDK：给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>
           </li>
           <!-- li class="list-group-item">
             CMS 后台 - 广告配置：随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题；通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。
@@ -244,7 +244,7 @@ export default {
       description: "公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作。",
     },
     {
-      name: "苏宁云商集团股份有限公司",
+      name: "苏宁云商集团股份有限公司<span class=\"project-name-small\">（苏宁易购）</span>",
       iconLink: "https://i.mazey.net/uploads/2024/08/suning-favicon.ico",
       timeRangeStart: "2017 年 11 月",
       timeRangeEnd: "2018 年 4 月",
@@ -614,22 +614,22 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            Mazey：工作中使用的前端函数库，访问地址：<a href="https://mazey.cn/t/btk" target="_blank" rel="noopener">github.com/chengchuu/mazey</a><span class="resume-timeline">（2019 年 - 至今）</span>。
+            Mazey：工作中使用的前端函数库，访问地址：<a href="https://mazey.cn/t/btk" target="_blank" rel="noopener">github.com/chengchuu/mazey</a><span class="resume-timeline">（2019 年 - 至今）</span>
           </li>
           <li class="list-group-item">
-            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://mazey.cn/t/btl" target="_blank" rel="noopener">github.com/chengchuu/mazey-wechat-launch-app</a><span class="resume-timeline">（2023 年）</span>。
+            WeChat Launch App：生成微信跳转 App 所需要的按钮，访问地址：<a href="https://mazey.cn/t/btl" target="_blank" rel="noopener">github.com/chengchuu/mazey-wechat-launch-app</a><span class="resume-timeline">（2023 年）</span>
           </li>
           <li class="list-group-item">
-            Taro Utils：跨端框架 Taro 工具箱，侧重于小程序，访问地址：<a href="https://mazey.cn/t/bty" target="_blank" rel="noopener">github.com/chengchuu/mazey-taro-utils</a><span class="resume-timeline">（2024 年）</span>。
+            Taro Utils：跨端框架 Taro 工具箱，侧重于小程序，访问地址：<a href="https://mazey.cn/t/bty" target="_blank" rel="noopener">github.com/chengchuu/mazey-taro-utils</a><span class="resume-timeline">（2024 年）</span>
           </li>
           <li class="list-group-item">
-            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://mazey.cn/t/btm" target="_blank" rel="noopener">github.com/chengchuu/aliyunoss-cli</a><span class="resume-timeline">（2020 年）</span>。
+            Aliyun OSS CLI：阿里云 OSS 文件上传 CLI，访问地址：<a href="https://mazey.cn/t/btm" target="_blank" rel="noopener">github.com/chengchuu/aliyunoss-cli</a><span class="resume-timeline">（2020 年）</span>
           </li>
           <li class="list-group-item">
-            Lazy Load Images：图片懒加载，访问地址：<a href="https://mazey.cn/t/btn" target="_blank" rel="noopener">github.com/chengchuu/mazey-lazy-load-images</a><span class="resume-timeline">（2022 年）</span>。
+            Lazy Load Images：图片懒加载，访问地址：<a href="https://mazey.cn/t/btn" target="_blank" rel="noopener">github.com/chengchuu/mazey-lazy-load-images</a><span class="resume-timeline">（2022 年）</span>
           </li>
           <li class="list-group-item">
-            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://mazey.cn/t/bto" target="_blank" rel="noopener">github.com/chengchuu/mazey-wordpress-utils</a><span class="resume-timeline">（2022 年）</span>。
+            WordPress Utils：WordPress 工具箱，访问地址：<a href="https://mazey.cn/t/bto" target="_blank" rel="noopener">github.com/chengchuu/mazey-wordpress-utils</a><span class="resume-timeline">（2022 年）</span>
           </li>
         </ul>
       `,
@@ -650,13 +650,13 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://mazey.cn/t/btp" target="_blank" rel="noopener">github.com/chengchuu/asiatz</a><span class="resume-timeline">（2023 年）</span>。
+            Asiatz：时区转换，特别是对亚洲时区的处理，访问地址：<a href="https://mazey.cn/t/btp" target="_blank" rel="noopener">github.com/chengchuu/asiatz</a><span class="resume-timeline">（2023 年）</span>
           </li>
           <li class="list-group-item">
-            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://mazey.cn/t/btq" target="_blank" rel="noopener">github.com/chengchuu/gurl</a><span class="resume-timeline">（2023 年）</span>。
+            GURL：用于 URL 参数操作，检查有效性，获取文件类型，访问地址：<a href="https://mazey.cn/t/btq" target="_blank" rel="noopener">github.com/chengchuu/gurl</a><span class="resume-timeline">（2023 年）</span>
           </li>
           <li class="list-group-item">
-            GMdTable：将切片转换为 Markdown 表格，多用于生成文档，访问地址：<a href="https://mazey.cn/t/btz" target="_blank" rel="noopener">github.com/tzfqh/gmdtable</a><span class="resume-timeline">（2024 年）</span>。
+            GMdTable：将切片转换为 Markdown 表格，多用于生成文档，访问地址：<a href="https://mazey.cn/t/btz" target="_blank" rel="noopener">github.com/tzfqh/gmdtable</a><span class="resume-timeline">（2024 年）</span>
           </li>
         </ul>
       `,
@@ -678,7 +678,7 @@ export default {
           bgc: "purple",
         },
       ],
-      description: "提供一个读书分享的平台，访问地址：<a href=\"https://mazey.cn/t/arl\" target=\"_blank\" rel=\"noopener\">mazey.cn/t/arl</a><span class=\"resume-timeline\">（2021 年）</span>。",
+      description: "提供一个读书分享的平台，访问地址：<a href=\"https://mazey.cn/t/arl\" target=\"_blank\" rel=\"noopener\">mazey.cn/t/arl</a><span class=\"resume-timeline\">（2021 年）</span>",
     },
     {
       name: "上海地铁运营系统",
@@ -697,7 +697,7 @@ export default {
           bgc: "d3",
         },
       ],
-      description: "上海地铁列车实时运行系统，Demo 地址：<a href=\"https://mazey.cn/t/fe\" target=\"_blank\" rel=\"noopener\">mazey.cn/t/fe</a>。",
+      description: "上海地铁列车实时运行系统，Demo 地址：<a href=\"https://mazey.cn/t/fe\" target=\"_blank\" rel=\"noopener\">mazey.cn/t/fe</a>",
     },
     {
       name: "工具类项目",
@@ -723,13 +723,13 @@ export default {
       description: `
         <ul class="list-group list-group-flush resume-list-circle">
           <li class="list-group-item">
-            短链接/短网址在线生成，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>。
+            短链接/短网址在线生成，访问地址：<a href="https://blog.mazey.net/tiny" target="_blank" rel="noopener">blog.mazey.net/tiny</a>
           </li>
           <li class="list-group-item">
-            前端性能监控，Demo 地址：<a href="https://mazey.cn/t/arm" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>。
+            前端性能监控，Demo 地址：<a href="https://mazey.cn/t/arm" target="_blank" rel="noopener">mazey.cn/t/arm</a>，密码：demo，接入文档：<a href="https://blog.mazey.net/feperf" target="_blank" rel="noopener">mazey.cn/t/arn</a>
           </li>
           <li class="list-group-item">
-            静态资源上传，Demo 地址：<a href="https://mazey.cn/t/aeo" target="_blank" rel="noopener">mazey.cn/t/aeo</a>。
+            静态资源上传，Demo 地址：<a href="https://mazey.cn/t/aeo" target="_blank" rel="noopener">mazey.cn/t/aeo</a>
           </li>
         </ul>
       `,
@@ -778,28 +778,28 @@ export default {
       iconLink: "https://i.mazey.net/uploads/2024/04/bilibili-logo.png",
       linkContent: "哔哩哔哩技术",
       link: "https://mp.weixin.qq.com/s/S_6YAcbZlcWIjcWdo5toXQ",
-      description: "<span class=\"resume-timeline\">（2023 年）</span>。",
+      description: "<span class=\"resume-timeline\">（2023 年）</span>",
     },
     {
       name: "公众号文章：前端性能和加载体验优化实践",
       iconLink: "https://i.mazey.net/uploads/2024/04/tencent-cloud-400x400-1.png",
       linkContent: "腾讯云",
       link: "https://mp.weixin.qq.com/s/W4MPYNZS2k2wuFtHqmm47w",
-      description: "<span class=\"resume-timeline\">（2022 年）</span>。",
+      description: "<span class=\"resume-timeline\">（2022 年）</span>",
     },
     {
       name: "专利：基于HTML5协议的浏览器全屏显示方法及显示装置",
       iconName: "html5",
       linkContent: "CN110083409A",
       link: "https://i.mazey.net/static/patent/CN102018000076427CN00001100834090APDFZH20190802CN00N.PDF",
-      description: "<span class=\"resume-timeline\">（2018 年）</span>。",
+      description: "<span class=\"resume-timeline\">（2018 年）</span>",
     },
     {
       name: "作品：Bootstrap 实战，从零开始边学边练",
       iconLink: "https://i.mazey.net/uploads/2024/08/douban-read-favicon.ico",
       linkContent: "豆瓣阅读",
       link: "https://read.douban.com/column/6946508/",
-      description: "<span class=\"resume-timeline\">（2017 年）</span>。",
+      description: "<span class=\"resume-timeline\">（2017 年）</span>",
     },
   ],
   language: "ZH",
