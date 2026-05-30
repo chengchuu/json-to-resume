@@ -66,7 +66,7 @@
       <div class="resume-footer">
         <div class="footer-line"></div>
         <div class="footer-content">
-          <span>Made with 💖 by <a class="author" href="https://github.com/chengchuu" target="_blank" rel="noopener">Mazey</a>（End）</span>
+          <span>Made with 💖 by <a class="author" href="https://github.com/chengchuu" target="_blank" rel="noopener">Cheng</a>（End）</span>
         </div>
         <div class="footer-line"></div>
       </div>

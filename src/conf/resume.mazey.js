@@ -65,10 +65,34 @@ export default {
   },
   companies: [
     {
+      name: "上海携旅信息技术有限公司",
+      iconLink: "https://i.mazey.net/uploads/2026/05/ctrip-favicon-16x16.ico",
+      timeRangeStart: "2024 年 10 月",
+      timeRangeEnd: "至今",
+      tags: [
+        {
+          name: "旅游",
+          bgc: "blue",
+        },
+        {
+          name: "ToC",
+          bgc: "cyan",
+        },
+      ],
+      department: "旅游研发部",
+      position: "前端工程师",
+      description: `参与旅游模块项目开发，建立和维护前端开发的编码规范、设计原则和技术标准，确保代码质量和可维护性。
+        <ul class="list-group list-group-flush resume-list-number">
+          <li class="list-group-item"></li>
+          <li class="list-group-item"></li>
+        </ul>
+      `,
+    },
+    {
       name: "上海哔哩哔哩科技有限公司",
       iconLink: "https://i.mazey.net/uploads/2024/04/bilibili-logo.png",
       timeRangeStart: "2022 年 5 月",
-      timeRangeEnd: "至今",
+      timeRangeEnd: "2024 年 9 月",
       tags: [
         {
           name: "手机游戏",
@@ -86,24 +110,24 @@ export default {
           <li class="list-group-item">
             游戏中心：游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>。
           </li>
-          <li class="list-group-item">
+          <!-- li class="list-group-item">
             <a href="https://mazey.cn/t/bth" target="_blank" rel="noopener">游戏开放平台</a>：面向外部游戏厂商，游戏全生命周期的管理，支持游戏接入及后续运营管理。
-          </li>
-          <li class="list-group-item">
+          </li -->
+          <!-- li class="list-group-item">
             <a href="https://mazey.cn/t/bti" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持。
-          </li>
+          </li -->
           <li class="list-group-item">
             <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供。
           </li>
           <li class="list-group-item">
             游戏中心通用组件：封装常用的前端组件，包括埋点上报、接口请求、分享、游戏预约和下载等。
           </li>
-          <li class="list-group-item">
+          <!-- li class="list-group-item">
             游戏中心管理后台：为内部运营服务，支持游戏、资讯、评论、礼包、推送、预约和权限管理。
-          </li>
-          <li class="list-group-item">
+          </li -->
+          <!-- li class="list-group-item">
             云游戏管理平台：支撑云游戏能力，提供云游戏内时长控制、包管理、厂商接入等功能。
-          </li>
+          </li -->
           <!-- li class="list-group-item">
             毕方社区游戏工具：公主连结团队战工具、<a href="https://game.bilibili.com/tool/pcr/" target="_blank" rel="noopener">公主连结工具站</a>、<a href="https://game.bilibili.com/tool/gt/" target="_blank" rel="noopener">坎公百宝袋</a>。
           </li -->
@@ -182,7 +206,7 @@ export default {
       ],
     },
     {
-      name: "上海基分文化传播有限公司<span class=\"project-name-small\">（趣头条）</span>",
+      name: "上海基分文化传播有限公司",
       iconLink: "https://i.mazey.net/uploads/2024/04/qtt-logo.png",
       timeRangeStart: "2018 年 12 月",
       timeRangeEnd: "2020 年 8 月",
