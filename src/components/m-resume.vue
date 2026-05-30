@@ -75,18 +75,18 @@
 </template>
 
 <script>
-  import resume from '../conf/resume.mazey';
-  import MResumeExperience from './m-resume-experience.vue';
+  import resume from "../conf/resume.mazey";
+  import MResumeExperience from "./m-resume-experience.vue";
 
   export default {
-    name: 'm-resume',
+    name: "m-resume",
     components: {
       MResumeExperience,
     },
     data () {
       return {
         resume,
-        colon: resume.language === 'ZH' ? '：' : ': ',
+        colon: resume.language === "ZH" ? "：" : ": ",
       };
     },
     created () {

@@ -73,11 +73,11 @@
 
 <script>
   export default {
-    name: 'm-resume-experience',
+    name: "m-resume-experience",
     props: {
       projects: [],
-      title: '',
-      colon: '',
+      title: "",
+      colon: "",
     },
   };
 </script>
