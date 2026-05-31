@@ -11,10 +11,6 @@ export default {
         name: "性别",
         value: "男",
       },
-      // {
-      //   name: "现居",
-      //   value: "上海",
-      // },
       {
         name: "出生",
         value: "1993 年",
@@ -57,10 +53,6 @@ export default {
         name: "GitHub",
         value: "<a href=\"https://github.com/chengchuu\" target=\"_blank\" rel=\"noopener\">github.com/chengchuu</a>",
       },
-      // {
-      //   name: "站酷",
-      //   value: "<a href=\"https://www.zcool.com.cn/u/24032804\" target=\"_blank\" rel=\"noopener\">zcool.com.cn/u/24032804</a>",
-      // },
     ],
   },
   companies: [
@@ -134,12 +126,12 @@ export default {
         </ul>
       `,
       products: [
-        // {
-        //   name: "三国：谋定天下",
-        //   iconLink: "https://i.mazey.net/uploads/2024/08/nslg-icon.png",
-        //   link: "https://www.biligame.com/detail/?id=110267",
-        //   bgcColor: "rgb(171, 136, 81)",
-        // },
+        {
+          name: "三国：谋定天下",
+          iconLink: "https://i.mazey.net/uploads/2024/08/nslg-icon.png",
+          link: "https://www.biligame.com/detail/?id=110267",
+          bgcColor: "rgb(171, 136, 81)",
+        },
         {
           name: "公主连结Re:Dive",
           iconLink: "https://i.mazey.net/uploads/2024/04/kusano-yui.png",
@@ -315,8 +307,6 @@ export default {
       tags: [
         { name: "ToC", bgc: "cyan" },
         { name: "国际化", bgc: "blue" },
-        // { name: "SSR", bgc: "purple" },
-        // { name: "交易链路", bgc: "green" },
       ],
       details: [
         {
@@ -340,25 +330,6 @@ export default {
           </ul>
           `,
         },
-        // {
-        //   name: "项目成果",
-        //   value: `
-        //   <ul class="list-group list-group-flush resume-list-number">
-        //     <li class="list-group-item">
-        //       完成多个核心模块迭代，包括搜索组件与快筛功能、列表页与酒店卡片组件、景点详情（评论/政策）、预订页（优惠券包）、订单详情等；
-        //     </li>
-        //     <li class="list-group-item">
-        //       负责线上问题排查与修复，通过用户日志与监控系统定位问题，提高问题响应效率；
-        //     </li>
-        //     <li class="list-group-item">
-        //       支持多方调用的对外组件开发与兼容处理，提升系统稳定性与接入方体验；
-        //     </li>
-        //     <li class="list-group-item">
-        //       参与发布流程与线上监控，保障版本稳定上线；
-        //     </li>
-        //   </ul>
-        //   `,
-        // },
       ],
     },
     {
