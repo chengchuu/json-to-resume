@@ -83,8 +83,8 @@ export default {
       position: "前端工程师",
       description: `参与旅游模块项目开发，建立和维护前端开发的编码规范、设计原则和技术标准，确保代码质量和可维护性。
         <ul class="list-group list-group-flush resume-list-number">
-          <li class="list-group-item"></li>
-          <li class="list-group-item"></li>
+          <li class="list-group-item">参与旅游板块包车游业务的开发与迭代，负责核心页面及下单流程的前端实现，优化多步骤表单交互与页面性能，提升用户体验与转化效率。</li>
+          <li class="list-group-item">推动部门 UI 组件原子化建设，基于设计规范拆分基础组件与业务组件，统一视觉与交互标准；引入组件级测试机制，提高组件复用率与稳定性，降低重复开发成本。</li>
         </ul>
       `,
     },
@@ -268,7 +268,7 @@ export default {
       description: "公司招聘系统的前端开发，完善招聘工作流；承担前端项目管理和运维的工作。",
     },
     {
-      name: "苏宁云商集团股份有限公司<span class=\"project-name-small\">（苏宁易购）</span>",
+      name: "苏宁云商集团股份有限公司<!-- span class=\"project-name-small\">（苏宁易购）</span -->",
       iconLink: "https://i.mazey.net/uploads/2024/08/suning-favicon.ico",
       timeRangeStart: "2017 年 11 月",
       timeRangeEnd: "2018 年 4 月",
@@ -309,7 +309,60 @@ export default {
   _projects: [/* Disable */],
   projects: [
     {
-      name: "莉莉丝游戏（万国觉醒&剑与远征&战火勋章）社区",
+      name: "携程旅游板块业务开发（国内&国际）",
+      timeRangeStart: "2024 年 10 月",
+      timeRangeEnd: "至今",
+      tags: [
+        { name: "ToC", bgc: "cyan" },
+        { name: "国际化", bgc: "blue" },
+        // { name: "SSR", bgc: "purple" },
+        // { name: "交易链路", bgc: "green" },
+      ],
+      details: [
+        {
+          name: "前端技术",
+          value: "React Native、SSR",
+        },
+        {
+          name: "项目描述",
+          value: "负责国内及海外旅游业务的前端开发，覆盖搜索、列表、详情、预订、订单等核心交易链路，支持多地区政策差异与多语言场景，提升全球用户的预订体验。",
+        },
+        {
+          name: "核心职责",
+          value: `
+          <ul class="list-group list-group-flush resume-list-number">
+            <li class="list-group-item">
+              设计并封装统一 API 模块，统一错误处理与异常上报机制；抽象通用组件，提升复杂交互场景的复用性与一致性。
+            </li>
+            <li class="list-group-item">
+              参与核心交易链路开发，包括搜索首页、旅游列表、景点/门票详情、预订页面及订单相关页面，保障业务功能稳定迭代。
+            </li>
+          </ul>
+          `,
+        },
+        // {
+        //   name: "项目成果",
+        //   value: `
+        //   <ul class="list-group list-group-flush resume-list-number">
+        //     <li class="list-group-item">
+        //       完成多个核心模块迭代，包括搜索组件与快筛功能、列表页与酒店卡片组件、景点详情（评论/政策）、预订页（优惠券包）、订单详情等；
+        //     </li>
+        //     <li class="list-group-item">
+        //       负责线上问题排查与修复，通过用户日志与监控系统定位问题，提高问题响应效率；
+        //     </li>
+        //     <li class="list-group-item">
+        //       支持多方调用的对外组件开发与兼容处理，提升系统稳定性与接入方体验；
+        //     </li>
+        //     <li class="list-group-item">
+        //       参与发布流程与线上监控，保障版本稳定上线；
+        //     </li>
+        //   </ul>
+        //   `,
+        // },
+      ],
+    },
+    {
+      name: "莉莉丝游戏（剑与远征&万国觉醒&战火勋章）社区",
       timeRangeStart: "2020 年 10 月",
       timeRangeEnd: "2022 年 4 月",
       tags: [
@@ -336,10 +389,10 @@ export default {
           value: "社区覆盖万国觉醒、剑与远征、战火勋章等游戏的国服及国际服环境，具备不同人群、语言环境的社区讨论及运营支持能力。",
         },
       ],
-      hideInPrint: false,
+      hideInPrint: true,
     },
     {
-      name: "莉莉丝游戏（万国觉醒&剑与远征）会员中心",
+      name: "莉莉丝游戏（剑与远征&万国觉醒）会员中心",
       timeRangeStart: "2020 年 8 月",
       timeRangeEnd: "2021 年 3 月",
       tags: [
@@ -366,6 +419,7 @@ export default {
           value: "承载玩家会员信息展示和礼包中心，访问地址：<a href=\"https://vip.lilith.com/\" target=\"_blank\" rel=\"noopener\">https://vip.lilith.com</a>",
         },
       ],
+      hideInPrint: false,
     },
     {
       name: "莉莉丝游戏（万国觉醒&剑与远征）礼包兑换码（CDKey）网站",
