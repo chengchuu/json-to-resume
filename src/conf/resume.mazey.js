@@ -301,6 +301,63 @@ export default {
   _projects: [/* Disable */],
   projects: [
     {
+      name: "旅游前端 Design System 与组件原子化体系建设",
+      timeRangeStart: "2024 年 12 月",
+      timeRangeEnd: "至今",
+      tags: [
+        { name: "Design System", bgc: "purple" },
+        { name: "工程化", bgc: "blue" },
+        { name: "组件库", bgc: "cyan" },
+        { name: "测试", bgc: "green" },
+      ],
+      details: [
+        {
+          name: "前端技术",
+          value: "React、TypeScript、组件库封装、测试体系（Jest / Testing Library）",
+        },
+        {
+          name: "项目描述",
+          value: "针对旅游业务多项目并行开发中组件重复实现、规范不统一的问题，主导建设前端 Design System，推进组件原子化拆分与统一规范，提升跨项目复用能力与工程可维护性。",
+        },
+        {
+          name: "核心职责",
+          value: `
+          <ul class="list-group list-group-flush resume-list-number">
+            <li class="list-group-item">
+              基于 Atomic Design 思想拆分组件层级（基础组件 / 组合组件 / 业务组件），建立统一组件结构与命名规范。
+            </li>
+            <li class="list-group-item">
+              抽象通用 UI 组件（弹窗、表单、选择器等），支持复杂交互场景。
+            </li>
+            <li class="list-group-item">
+              推进组件文档化与使用规范沉淀，降低跨团队协作成本。
+            </li>
+            <li class="list-group-item">
+              建立组件测试体系，引入单元测试与覆盖率统计，提升组件稳定性。
+            </li>
+          </ul>
+          `,
+        },
+        {
+          name: "项目成果",
+          value: `
+          <ul class="list-group list-group-flush resume-list-number">
+            <li class="list-group-item">
+              统一旅游业务 UI 规范，减少重复开发与样式不一致问题。
+            </li>
+            <li class="list-group-item">
+              提升组件复用率，降低新业务开发成本。
+            </li>
+            <li class="list-group-item">
+              建立组件级测试机制，提高核心组件稳定性与可维护性。
+            </li>
+          </ul>
+          `,
+        },
+      ],
+      hideInPrint: true,
+    },
+    {
       name: "携程旅游板块业务开发（国内&国际）",
       timeRangeStart: "2024 年 10 月",
       timeRangeEnd: "至今",
