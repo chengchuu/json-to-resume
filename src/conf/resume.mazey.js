@@ -100,6 +100,9 @@ export default {
       description: `哔哩哔哩游戏中心联运&独代业务迭代和维护：
         <ul class="list-group list-group-flush resume-list-number">
           <li class="list-group-item">
+            参与游戏营销增长活动体系建设，支持预约、拉新、福利等场景；实现小程序及多端同构能力，提升复用效率与一致性体验。
+          </li>
+          <li class="list-group-item">
             游戏中心：游戏平台的游戏分发能力，同时提供游戏内容和游戏社区能力，包括<a href="https://game.bilibili.com/" target="_blank" rel="noopener">桌面端</a>及<a href="https://app.biligame.com/" target="_blank" rel="noopener">移动端</a>。
           </li>
           <!-- li class="list-group-item">
@@ -108,9 +111,9 @@ export default {
           <!-- li class="list-group-item">
             <a href="https://mazey.cn/t/bti" target="_blank" rel="noopener">开放平台文档中心</a>：为游戏厂商提供政策与公告、SDK 开发指导、操作指引和运营支持。
           </li -->
-          <li class="list-group-item">
+          <!-- li class="list-group-item">
             <a href="https://wiki.biligame.com/" target="_blank" rel="noopener">游戏中心 Wiki</a>：一站式供多人协同写作综合服务平台，内容由社区玩家参与提供。
-          </li>
+          </li -->
           <li class="list-group-item">
             游戏中心通用组件：封装常用的前端组件，包括埋点上报、接口请求、分享、游戏预约和下载等。
           </li>
@@ -225,7 +228,7 @@ export default {
       description: `搭建集成在趣头条 App 中的游戏中心入口落地页，以及提供面向外部游戏厂商的 JS-SDK：
         <ul class="list-group list-group-flush resume-list-number">
           <li class="list-group-item">
-            游戏中心 JS-SDK：给游戏厂商提供封装好的支付、广告、游戏任务、返回劫持、数据上报、分享以及调用原生 App 功能的能力，游戏 SDK 文档：<a href="https://mazey.cn/t/dl" target="_blank" rel="noopener">mazey.cn/t/dl</a>
+          游戏中心 JS-SDK：面向游戏厂商提供统一的前端接入能力层，封装核心业务能力（支付、广告、任务、分享及原生能力调用等），降低接入复杂度，提升多游戏项目的复用效率与一致性。
           </li>
           <!-- li class="list-group-item">
             CMS 后台 - 广告配置：随着游戏体量的增加和单平台向多平台切换的背景下，早期业务的广告全局配置已然不能满足商务工作需求，存在低效易错的问题；通过 CMS 后台的广告配置，单个平台只需要配置一次广告配置，为商务每天<b>节约 1~2 小时</b>的工作时间。
@@ -302,8 +305,8 @@ export default {
   projects: [
     {
       name: "旅游前端 Design System 与组件原子化体系建设",
-      timeRangeStart: "2024 年 12 月",
-      timeRangeEnd: "至今",
+      timeRangeStart: "2025 年 2 月",
+      timeRangeEnd: "2025 年 12 月",
       tags: [
         { name: "Design System", bgc: "purple" },
         { name: "工程化", bgc: "blue" },
@@ -360,7 +363,7 @@ export default {
     {
       name: "携程旅游板块业务开发（国内&国际）",
       timeRangeStart: "2024 年 10 月",
-      timeRangeEnd: "至今",
+      timeRangeEnd: "2025 年 12 月",
       tags: [
         { name: "ToC", bgc: "cyan" },
         { name: "国际化", bgc: "blue" },
@@ -384,6 +387,42 @@ export default {
             <li class="list-group-item">
               参与核心交易链路开发，包括搜索首页、旅游列表、景点/门票详情、预订页面及订单相关页面，保障业务功能稳定迭代。
             </li>
+          </ul>
+          `,
+        },
+      ],
+    },
+    {
+      name: "哔哩哔哩游戏公测前新用户拉新与联盟裂变活动",
+      timeRangeStart: "2024 年 2 月",
+      timeRangeEnd: "2024 年 8 月",
+      tags: [
+        { name: "增长活动", bgc: "green" },
+        { name: "小程序", bgc: "green" },
+        { name: "跨端", bgc: "blue" },
+
+      ],
+      details: [
+        {
+          name: "项目描述",
+          value: "负责游戏《三国：谋定天下》公测前的新用户增长与裂变活动体系建设，核心目标是在玩家进入游戏前完成联盟创建与社交关系沉淀，提升开服后的留存与活跃。",
+        },
+        {
+          name: "核心职责",
+          value: `
+          <ul class="list-group list-group-flush resume-list-number">
+            <li class="list-group-item">
+              设计并实现公测前拉新与裂变活动链路，引导用户完成预约、邀请、绑定与联盟创建流程，提前完成核心社交关系构建。
+            </li>
+            <li class="list-group-item">
+              基于 Taro 构建跨端活动体系，实现微信小程序 / H5 / PC 三端同构，保证不同入口用户体验一致。
+            </li>
+            <li class="list-group-item">
+              参与活动增长组件建设（分享裂变、邀请链路、用户状态同步、奖励发放等），提升活动复用能力。
+            </li>
+            <!-- li class="list-group-item">
+              对接后端活动系统，实现用户邀请关系链路与联盟创建状态的实时同步。
+            </li -->
           </ul>
           `,
         },
@@ -785,6 +824,7 @@ export default {
         },
       ],
       description: "提供一个读书分享的平台，访问地址：<a href=\"https://mazey.cn/t/arl\" target=\"_blank\" rel=\"noopener\">mazey.cn/t/arl</a><span class=\"resume-timeline\">（2021 年）</span>",
+      hideInPrint: true,
     },
     {
       name: "上海地铁运营系统",
@@ -804,6 +844,7 @@ export default {
         },
       ],
       description: "上海地铁列车实时运行系统，Demo 地址：<a href=\"https://mazey.cn/t/fe\" target=\"_blank\" rel=\"noopener\">mazey.cn/t/fe</a>",
+      hideInPrint: true,
     },
     {
       name: "工具类项目",
