@@ -379,7 +379,7 @@ export default {
       details: [
         {
           name: "前端技术",
-          value: "React、Webpack、Sass",
+          value: "React、webpack、Sass",
         },
         {
           name: "后端技术",
@@ -459,7 +459,7 @@ export default {
       details: [
         {
           name: "前端技术",
-          value: "Webpack、Rollup、Gulp、Docsify、Sass",
+          value: "webpack、Rollup、Gulp、Docsify、Sass",
         },
         {
           name: "后端技术",
@@ -593,7 +593,7 @@ export default {
       details: [
         {
           name: "前端技术",
-          value: "Vue 2、Element-UI、Echarts 3、Webpack、Sass",
+          value: "Vue 2、Element-UI、Echarts 3、webpack、Sass",
         },
         {
           name: "项目描述",
