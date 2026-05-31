@@ -371,7 +371,7 @@ export default {
       details: [
         {
           name: "前端技术",
-          value: "React Native、SSR",
+          value: "React Native、Node.js",
         },
         {
           name: "项目描述",
@@ -403,6 +403,10 @@ export default {
 
       ],
       details: [
+        {
+          name: "前端技术",
+          value: "React、Taro",
+        },
         {
           name: "项目描述",
           value: "负责游戏《三国：谋定天下》公测前的新用户增长与裂变活动体系建设，核心目标是在玩家进入游戏前完成联盟创建与社交关系沉淀，提升开服后的留存与活跃。",
