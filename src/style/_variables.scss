@@ -187,7 +187,6 @@ $grid-breakpoints: (
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
 
-
 // Grid containers
 //
 // Define the maximum width of `.container` for different screen sizes.
@@ -200,7 +199,6 @@ $container-max-widths: (
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
-
 
 // Grid columns
 //
@@ -231,7 +229,6 @@ $caret-width:                 0.3em !default;
 $transition-base:             all 0.2s ease-in-out !default;
 $transition-fade:             opacity 0.15s linear !default;
 $transition-collapse:         height 0.35s ease !default;
-
 
 // Fonts
 //
