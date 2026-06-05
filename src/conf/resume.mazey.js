@@ -424,9 +424,6 @@ export default {
             <li class="list-group-item">
               参与活动增长组件建设（分享裂变、邀请链路、用户状态同步、奖励发放等），提升活动复用能力。
             </li>
-            <!-- li class="list-group-item">
-              对接后端活动系统，实现用户邀请关系链路与联盟创建状态的实时同步。
-            </li -->
           </ul>
           `,
         },
