@@ -393,14 +393,13 @@ export default {
       ],
     },
     {
-      name: "哔哩哔哩游戏公测前新用户拉新与联盟裂变活动",
+      name: "哔哩哔哩《三国：谋定天下》公测前预约裂变活动",
       timeRangeStart: "2024 年 2 月",
       timeRangeEnd: "2024 年 8 月",
       tags: [
         { name: "增长活动", bgc: "green" },
         { name: "小程序", bgc: "green" },
         { name: "跨端", bgc: "blue" },
-
       ],
       details: [
         {
@@ -409,22 +408,25 @@ export default {
         },
         {
           name: "项目描述",
-          value: "负责游戏《三国：谋定天下》公测前的新用户增长与裂变活动体系建设，核心目标是在玩家进入游戏前完成联盟创建与社交关系沉淀，提升开服后的留存与活跃。",
+          value: "负责游戏《三国：谋定天下》公测前的新用户增长与裂变活动体系建设，目标是在玩家进入游戏前完成联盟创建，提升开服后的留存。",
         },
         {
           name: "核心职责",
           value: `
-          <ul class="list-group list-group-flush resume-list-number">
-            <li class="list-group-item">
-              设计并实现公测前拉新与裂变活动链路，引导用户完成预约、邀请、绑定与联盟创建流程，提前完成核心社交关系构建。
-            </li>
-            <li class="list-group-item">
-              基于 Taro 构建跨端活动体系，实现微信小程序 / H5 / PC 三端同构，保证不同入口用户体验一致。
-            </li>
-            <li class="list-group-item">
-              参与活动增长组件建设（分享裂变、邀请链路、用户状态同步、奖励发放等），提升活动复用能力。
-            </li>
-          </ul>
+            <ul class="list-group list-group-flush resume-list-number">
+              <li class="list-group-item">
+                参与公测前用户增长体系建设，设计并实现预约、邀请、绑定、联盟创建及奖励领取等核心链路，支撑裂变传播与用户关系沉淀。
+              </li>
+              <li class="list-group-item">
+                主导跨端技术方案调研与落地，实现微信小程序、H5、PC 三端同构开发，显著降低多端开发成本。
+              </li>
+              <li class="list-group-item">
+                推动活动通用能力建设，沉淀海报分享、图片保存、登录授权、预约下载、通用弹窗等模块，提高后续活动开发效率与一致性。
+              </li>
+              <li class="list-group-item">
+                活动上线当天实现 PV 11.6 万、UV 5.1 万、奖励领取人数 2.4 万+，并沉淀完整的小程序跨端开发体系和活动组件体系。
+              </li>
+            </ul>
           `,
         },
       ],
