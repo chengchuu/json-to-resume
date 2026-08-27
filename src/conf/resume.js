@@ -33,7 +33,7 @@ export default {
   },
   companies: [
     {
-      name: "上海知问兔网络科技有限公司",
+      name: "上海兔飞猛进网络科技有限公司",
       iconName: "pixel-rabbit",
       timeRangeStart: "2022 年 6 月",
       timeRangeEnd: "至今",
@@ -72,7 +72,7 @@ export default {
       ],
     },
     {
-      name: "济南家里蹲教育科技有限公司",
+      name: "深圳喵步天下教育科技有限公司",
       iconName: "pixel-cat",
       timeRangeStart: "2021 年 6 月",
       timeRangeEnd: "2022 年 6 月",
