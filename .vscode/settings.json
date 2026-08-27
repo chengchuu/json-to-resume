@@ -3,5 +3,7 @@
   "markdown.extension.toc.levels": "3..4",
   "files.eol": "\n",
   "files.insertFinalNewline": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "workbench.browser.openLocalhostLinks": false,
+  "workbench.externalBrowser": "chrome"
 }

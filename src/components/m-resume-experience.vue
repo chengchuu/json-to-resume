@@ -72,12 +72,21 @@
 </template>
 
 <script>
-  export default {
-    name: "m-resume-experience",
-    props: {
-      projects: [],
-      title: "",
-      colon: "",
+export default {
+  name: "m-resume-experience",
+  props: {
+    projects: {
+      type: Array,
+      required: true,
     },
-  };
+    title: {
+      type: String,
+      required: true,
+    },
+    colon: {
+      type: String,
+      required: true,
+    },
+  },
+};
 </script>

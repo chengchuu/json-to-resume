@@ -1,36 +1,35 @@
 "use strict";
-const utils = require("./utils");
-const webpack = require("webpack");
-const config = require("../config");
-const merge = require("webpack-merge");
-const baseWebpackConfig = require("./webpack.base.conf");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const FriendlyErrorsPlugin = require("friendly-errors-webpack-plugin");
 
-// add hot-reload related code to entry chunks
-Object.keys(baseWebpackConfig.entry).forEach(function (name) {
-  baseWebpackConfig.entry[name] = ["./build/dev-client"].concat(baseWebpackConfig.entry[name]);
-});
+const webpack = require("webpack");
+const { merge } = require("webpack-merge");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const config = require("../config");
+const utils = require("./utils");
+const baseWebpackConfig = require("./webpack.base.conf");
 
 module.exports = merge(baseWebpackConfig, {
+  mode: "development",
+  devtool: "eval-cheap-module-source-map",
   module: {
     rules: utils.styleLoaders({ sourceMap: config.dev.cssSourceMap }),
   },
-  // cheap-module-eval-source-map is faster for development
-  devtool: "#cheap-module-eval-source-map",
+  devServer: {
+    client: {
+      overlay: true,
+    },
+    historyApiFallback: true,
+    hot: true,
+    open: config.dev.autoOpenBrowser,
+    port: config.dev.port,
+  },
   plugins: [
     new webpack.DefinePlugin({
-      "process.env": config.dev.env,
+      "process.env.NODE_ENV": config.dev.env.NODE_ENV,
     }),
-    // https://github.com/glenjamin/webpack-hot-middleware#installation--usage
-    new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
-    // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "index.html",
-      inject: true,
+      inject: "body",
     }),
-    new FriendlyErrorsPlugin(),
   ],
 });

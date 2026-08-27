@@ -75,23 +75,23 @@
 </template>
 
 <script>
-  import resume from "../conf/resume";
-  import MResumeExperience from "./m-resume-experience.vue";
+import resume from "../conf/resume";
+import MResumeExperience from "./m-resume-experience.vue";
 
-  export default {
-    name: "m-resume",
-    components: {
-      MResumeExperience,
-    },
-    data () {
-      return {
-        resume,
-        colon: resume.language === "ZH" ? "：" : ": ",
-      };
-    },
-    created () {
-      document.title = this.resume.pageAndFileName;
-    },
-    mounted () {},
-  };
+export default {
+  name: "m-resume",
+  components: {
+    MResumeExperience,
+  },
+  data () {
+    return {
+      resume,
+      colon: resume.language === "ZH" ? "：" : ": ",
+    };
+  },
+  created () {
+    document.title = this.resume.pageAndFileName;
+  },
+  mounted () {},
+};
 </script>

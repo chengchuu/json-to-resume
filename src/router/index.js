@@ -8,16 +8,16 @@ const vueRouter = new Router({
     {
       path: "/resume",
       name: "resume",
-      component: resolve => require(["@/components/m-resume.vue"], resolve), // Resume
+      component: () => import("@/components/m-resume.vue"), // Resume
     },
     {
       path: "/home",
       name: "home",
-      component: resolve => require(["@/components/m-home.vue"], resolve), // Resume
+      component: () => import("@/components/m-home.vue"), // Home
     },
     {
       path: "/",
-      redirect: {name: "resume"},
+      redirect: { name: "resume" },
     },
   ],
 });

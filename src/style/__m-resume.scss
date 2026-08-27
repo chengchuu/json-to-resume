@@ -219,6 +219,10 @@ $colours: map-merge(
   $border-color-primary: $resume-border-color-primary;
   $item-between-space: 30px;
 
+  font-size: 14px;
+  color: $font-color-primary;
+  padding: 30px 50px;
+
   %module-border-bottom {
     border-bottom: 1px solid $border-color-primary;
   }
@@ -264,10 +268,6 @@ $colours: map-merge(
     height: 1em;
     margin-right: 3px;
   }
-
-  font-size: 14px;
-  color: $font-color-primary;
-  padding: 30px 50px;
 
   %unique-ui {
     ul {
