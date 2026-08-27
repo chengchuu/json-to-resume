@@ -106,8 +106,8 @@ importers:
         specifier: ^16.1.5
         version: 16.4.0
       mazey:
-        specifier: ^5.6.0
-        version: 5.9.0
+        specifier: ^5.9.1
+        version: 5.9.1
       mini-css-extract-plugin:
         specifier: ^2.9.4
         version: 2.10.2(webpack@5.109.2)
@@ -2865,8 +2865,8 @@ packages:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
     engines: {node: '>= 0.4'}
 
-  mazey@5.9.0:
-    resolution: {integrity: sha512-qSij1OxA3agawqquqs0lXKeQ86bQvWqprKqIgNXJ+0O9qT4RZKgmbrKWJ2OROqJgD0GBk2lL/DRQEse0vjTgBA==}
+  mazey@5.9.1:
+    resolution: {integrity: sha512-TsEf61YVZJo0JeEUhnvJC5LXtu/Sjfd7Id7zjkUlHAgsj1SwH82ArwbGtnAK4H7sARfn+KsmuCgtDpGC6Y/jaw==}
 
   mdn-data@2.0.28:
     resolution: {integrity: sha512-aylIc7Z9y4yzHYAJNuESG3hfhC+0Ibp/MAMiaOZgNv4pmEdFyfZhhhny4MNiAfWdBQ1RQ2mfDWmM1x8SvGyp8g==}
@@ -7324,7 +7324,7 @@ snapshots:
 
   math-intrinsics@1.1.0: {}
 
-  mazey@5.9.0: {}
+  mazey@5.9.1: {}
 
   mdn-data@2.0.28: {}
 

@@ -8,7 +8,7 @@
 
 ![Resume Demo](./images/json-to-resume-print-v1-w800.jpg)
 
-演示地址：<https://i.mazey.net/x/resume/>
+演示地址：<https://chengchuu.github.io/json-to-resume/>
 
 ## 下载
 

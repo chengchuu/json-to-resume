@@ -18,7 +18,7 @@ module.exports = {
   output: {
     path: config.build.assetsRoot,
     filename: "[name].js",
-    publicPath: "/",
+    publicPath: config.build.assetsPublicPath,
     environment: {
       arrowFunction: false,
       const: false,
