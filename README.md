@@ -34,6 +34,14 @@ JSON 文件位于路径：`src/conf/resume.js`
 
 ## 本地启动
 
+### Development Environment
+
+| Dependency | Version  |
+|------------|----------|
+| Node.js    | v14.21.3 |
+
+### Scripts
+
 Install dependencies:
 
 ```bash

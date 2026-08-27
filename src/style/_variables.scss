@@ -3,7 +3,6 @@
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
 
-
 //
 // Color system
 //
@@ -116,7 +115,6 @@ $enable-hover-media-query:  false !default; // Deprecated, no longer affects any
 $enable-grid-classes:       true !default;
 $enable-print-styles:       true !default;
 
-
 // Spacing
 //
 // Control the default styling of most Bootstrap elements by modifying these
@@ -173,7 +171,6 @@ $link-hover-decoration:     underline !default;
 
 $paragraph-margin-bottom:   1rem !default;
 
-
 // Grid breakpoints
 //
 // Define the minimum dimensions at which your layout will change,
@@ -190,7 +187,6 @@ $grid-breakpoints: (
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
 
-
 // Grid containers
 //
 // Define the maximum width of `.container` for different screen sizes.
@@ -203,7 +199,6 @@ $container-max-widths: (
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
-
 
 // Grid columns
 //
@@ -234,7 +229,6 @@ $caret-width:                 0.3em !default;
 $transition-base:             all 0.2s ease-in-out !default;
 $transition-fade:             opacity 0.15s linear !default;
 $transition-collapse:         height 0.35s ease !default;
-
 
 // Fonts
 //
@@ -458,7 +452,7 @@ $input-group-addon-border-color:        $input-border-color !default;
 $custom-control-gutter:                 1.5rem !default;
 $custom-control-spacer-x:               1rem !default;
 
-$custom-control-indicator-size:         1rem !default; // 16px !default; // 
+$custom-control-indicator-size:         1rem !default; // 16px !default; //
 $custom-control-indicator-bg:           $gray-300 !default;
 $custom-control-indicator-bg-size:      50% 50% !default;
 $custom-control-indicator-box-shadow:   inset 0 0.25rem 0.25rem rgba($black, 0.1) !default;

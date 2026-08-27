@@ -2,28 +2,29 @@
 
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parser: "babel-eslint",
   parserOptions: {
-    sourceType: 'module'
+    sourceType: "module",
   },
   env: {
     browser: true,
   },
   // https://github.com/standard/standard/blob/master/docs/RULES-en.md
-  extends: 'standard',
+  extends: "standard",
   // required to lint *.vue files
   plugins: [
-    'html'
+    "html",
   ],
   // add your custom rules here
-  'rules': {
+  "rules": {
+    "quotes": ["warn", "double"],
     // allow paren-less arrow functions
-    'arrow-parens': 0,
+    "arrow-parens": 0,
     // allow async-await
-    'generator-star-spacing': 0,
-    'comma-dangle': ['error', 'always-multiline'],
-    semi: ['error', 'always'],
+    "generator-star-spacing": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    semi: ["error", "always"],
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
-  }
-}
+    "no-debugger": process.env.NODE_ENV === "production" ? 2 : 0,
+  },
+};

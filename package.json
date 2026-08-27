@@ -15,7 +15,7 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "lint-fix": "eslint --fix --ext .js,.vue src scripts test/unit/specs test/e2e/specs",
+    "lint-fix": "eslint --fix --ext .js,.vue src scripts test/unit/specs test/e2e/specs config build",
     "html-lint": "htmllint"
   },
   "husky": {
@@ -29,7 +29,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "element-ui": "^2.0.11",
     "jquery": "^3.3.1",
-    "mazey": "^3.9.1",
+    "mazey": "^3.12.4",
     "normalize.css": "^7.0.0",
     "vue": "^2.5.2",
     "vue-aplayer": "^1.0.1",
