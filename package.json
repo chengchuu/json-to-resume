@@ -25,7 +25,7 @@
   "dependencies": {
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.23.1",
-    "vue": "2.7.16",
+    "vue": "3.0.0",
     "vue-router": "^3.6.5"
   },
   "devDependencies": {
