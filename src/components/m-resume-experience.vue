@@ -17,7 +17,7 @@
               <div v-if="project.iconLink" :class="`project-logo`">
                 <i class="icon" :style="{ backgroundImage: `url(${project.iconLink})` }"></i>
               </div>
-              <span>{{ project.name }}</span>
+              <span v-html="project.name"></span>
               <span class="project-badges">
                 <b-badge v-for="(tag, index) in project.tags"
                   :key="`project-badges-${index}`"
@@ -72,12 +72,21 @@
 </template>
 
 <script>
-  export default {
-    name: 'm-resume-experience',
-    props: {
-      projects: [],
-      title: '',
-      colon: '',
+export default {
+  name: "m-resume-experience",
+  props: {
+    projects: {
+      type: Array,
+      required: true,
     },
-  };
+    title: {
+      type: String,
+      required: true,
+    },
+    colon: {
+      type: String,
+      required: true,
+    },
+  },
+};
 </script>

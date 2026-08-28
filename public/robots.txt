@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://chengchuu.github.io/json-to-resume/sitemap.xml

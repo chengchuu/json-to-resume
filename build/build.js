@@ -1,41 +1,39 @@
-'use strict'
-require('./check-versions')()
+"use strict";
 
-process.env.NODE_ENV = 'production'
+process.env.NODE_ENV = "production";
 
-const ora = require('ora')
-const rm = require('rimraf')
-const path = require('path')
-const chalk = require('chalk')
-const webpack = require('webpack')
-const config = require('../config')
-const webpackConfig = require('./webpack.prod.conf')
+const fs = require("fs");
+const path = require("path");
+const webpack = require("webpack");
+const config = require("../config");
+const webpackConfig = require("./webpack.prod.conf");
 
-const spinner = ora('building for production...')
-spinner.start()
+function copyPublicFiles () {
+  ["robots.txt", "sitemap.xml"].forEach(fileName => {
+    fs.copyFileSync(
+      path.resolve(__dirname, "../public", fileName),
+      path.resolve(config.build.assetsRoot, fileName),
+    );
+  });
+}
 
-rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {
-  if (err) throw err
-  webpack(webpackConfig, function (err, stats) {
-    spinner.stop()
-    if (err) throw err
-    process.stdout.write(stats.toString({
-      colors: true,
-      modules: false,
-      children: false,
-      chunks: false,
-      chunkModules: false
-    }) + '\n\n')
+webpack(webpackConfig, (error, stats) => {
+  if (error) {
+    throw error;
+  }
 
-    if (stats.hasErrors()) {
-      console.log(chalk.red('  Build failed with errors.\n'))
-      process.exit(1)
-    }
+  process.stdout.write(`${stats.toString({
+    colors: true,
+    modules: false,
+    children: false,
+    chunks: false,
+    chunkModules: false,
+  })}\n`);
 
-    console.log(chalk.cyan('  Build complete.\n'))
-    console.log(chalk.yellow(
-      '  Tip: built files are meant to be served over an HTTP server.\n' +
-      '  Opening index.html over file:// won\'t work.\n'
-    ))
-  })
-})
+  if (stats.hasErrors()) {
+    process.exitCode = 1;
+    return;
+  }
+
+  copyPublicFiles();
+});

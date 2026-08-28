@@ -4,7 +4,7 @@
       <div class="resume-title">
         <h1>{{ resume.title }}</h1>
       </div>
-      <!--基本信息-->
+      <!-- 基本信息 -->
       <div class="resume-item">
         <h3>基本信息</h3>
         <div class="resume-item-content resume-item-between">
@@ -26,13 +26,13 @@
           </ul>
         </div>
       </div>
-      <!--工作经历-->
+      <!-- 工作经历 -->
       <m-resume-experience :projects="resume.companies" title="工作经历" :colon="colon"></m-resume-experience>
-      <!--项目经验-->
+      <!-- 项目经验 -->
       <m-resume-experience :projects="resume.projects" title="项目经验" :colon="colon"></m-resume-experience>
-      <!--个人项目-->
+      <!-- 个人项目 -->
       <m-resume-experience :projects="resume.individualProjects" title="个人项目" :colon="colon"></m-resume-experience>
-      <!--技能-->
+      <!-- 技能 -->
       <div class="resume-item" :class="{ 'hide': resume.skills.length === 0 }">
         <h3>技能</h3>
         <div class="skill-show">
@@ -45,7 +45,7 @@
           </div>
         </div>
       </div>
-      <!--其他-->
+      <!-- 其他 -->
       <div class="resume-item" :class="{ 'hide': resume.others.length === 0 }">
         <h3>其他</h3>
         <div class="patent">
@@ -58,14 +58,15 @@
                 [<a :href="patent.link" target="_blank" rel="noopener">{{ patent.linkContent }}</a>]
               </span>
             </span>
+            <span v-if="patent.description" v-html="patent.description"></span>
           </div>
         </div>
       </div>
-      <!--底部-->
+      <!-- 底部 -->
       <div class="resume-footer">
         <div class="footer-line"></div>
         <div class="footer-content">
-          <span>Made with 💖 by <a class="author" href="https://github.com/chengchuu" target="_blank" rel="noopener">Mazey</a>（End）</span>
+          <span>Made with 💖 by <a class="author" href="https://github.com/chengchuu" target="_blank" rel="noopener">Cheng</a>（End）</span>
         </div>
         <div class="footer-line"></div>
       </div>
@@ -74,23 +75,23 @@
 </template>
 
 <script>
-  import resume from '../conf/resume';
-  import MResumeExperience from './m-resume-experience.vue';
+import resume from "../conf/resume";
+import MResumeExperience from "./m-resume-experience.vue";
 
-  export default {
-    name: 'm-resume',
-    components: {
-      MResumeExperience,
-    },
-    data () {
-      return {
-        resume,
-        colon: resume.language === 'ZH' ? '：' : ': ',
-      };
-    },
-    created () {
-      document.title = this.resume.pageAndFileName;
-    },
-    mounted () {},
-  };
+export default {
+  name: "m-resume",
+  components: {
+    MResumeExperience,
+  },
+  data () {
+    return {
+      resume,
+      colon: resume.language === "ZH" ? "：" : ": ",
+    };
+  },
+  created () {
+    document.title = this.resume.pageAndFileName;
+  },
+  mounted () {},
+};
 </script>

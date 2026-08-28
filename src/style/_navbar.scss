@@ -144,6 +144,11 @@
     $infix: breakpoint-infix($next, $grid-breakpoints);
 
     &#{$infix} {
+      @if $next == null {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+      }
+
       @include media-breakpoint-down($breakpoint) {
         > .container,
         > .container-fluid {
@@ -153,8 +158,10 @@
       }
 
       @include media-breakpoint-up($next) {
-        flex-flow: row nowrap;
-        justify-content: flex-start;
+        @if $next != null {
+          flex-flow: row nowrap;
+          justify-content: flex-start;
+        }
 
         .navbar-nav {
           flex-direction: row;

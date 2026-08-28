@@ -8,7 +8,7 @@
 
 ![Resume Demo](./images/json-to-resume-print-v1-w800.jpg)
 
-演示地址：<https://i.mazey.net/x/resume/>
+演示地址：<https://chengchuu.github.io/json-to-resume/>
 
 ## 下载
 
@@ -21,32 +21,42 @@
 JSON 文件位于路径：`src/conf/resume.js`
 
 | 字段 | 说明 | 示例 |
-| :------------ | :------------ | :------------ |
-| title | 简历标题 | 初级喂猫师 |
-| pageAndFileName | 页面/文件标题 | 猫宁-初级喂猫师-2年 |
-| personInfo | 个人信息 | - |
-| personInfo.left | 个人信息 - 左边栏 | 姓名、性别 |
-| personInfo.right | 个人信息 - 右边栏  |  院校、专业 |
-| companies | 工作经历 | - |
-| projects | 项目经验 | - |
-| skills | 技能 | 喂猫、遛狗、拍照、旅游、铲猫砂 |
-| others | 其他 | ⾃我总结、个人优势、职业资格 |
+|:-----------------|:-------------------|:----------------------------------|
+| title            | 简历标题           | 初级喂猫师                        |
+| pageAndFileName  | 页面/文件标题      | 猫宁-初级喂猫师-2年               |
+| personInfo       | 个人信息           | -                                 |
+| personInfo.left  | 个人信息 - 左边栏  | 姓名、性别                        |
+| personInfo.right | 个人信息 - 右边栏  | 院校、专业                        |
+| companies        | 工作经历           | -                                 |
+| projects         | 项目经验           | -                                 |
+| skills           | 技能               | 喂猫、遛狗、拍照、旅游、铲猫砂    |
+| others           | 其他               | ⾃我总结、个人优势、职业资格       |
 
 ## 本地启动
 
-Install dependencies:
+### 安装依赖
+
+使用 npm 安装依赖：
 
 ```bash
 npm install
 ```
 
-Serve with hot reload:
+### 运行项目
+
+启动支持热更新的开发服务器：
 
 ```bash
 npm run dev
 ```
 
-Build for production:
+开发服务器默认使用 `http://localhost:8081`，并自动打开浏览器。自动化场景可以禁用该行为：
+
+```bash
+npm run dev -- --no-open
+```
+
+构建生产文件：
 
 ```bash
 npm run build

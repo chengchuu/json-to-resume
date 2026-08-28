@@ -219,6 +219,10 @@ $colours: map-merge(
   $border-color-primary: $resume-border-color-primary;
   $item-between-space: 30px;
 
+  font-size: 14px;
+  color: $font-color-primary;
+  padding: 30px 50px;
+
   %module-border-bottom {
     border-bottom: 1px solid $border-color-primary;
   }
@@ -229,6 +233,10 @@ $colours: map-merge(
 
   .resume-small {
     font-size: 12px;
+  }
+
+  .project-name-small {
+    font-size: 16px;
   }
 
   .info-padding {
@@ -261,16 +269,12 @@ $colours: map-merge(
     margin-right: 3px;
   }
 
-  font-size: 14px;
-  color: $font-color-primary;
-  padding: 30px 50px;
-
   %unique-ui {
     ul {
       list-style-type: none;
       padding-left: 0;
       margin-bottom: 0;
-  
+
       li:nth-last-child(n + 2) {
         margin-bottom: 4px;
       }
@@ -312,7 +316,7 @@ $colours: map-merge(
       height: 23px;
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: left top;
+      background-position: left center;
     }
 
     .project-logo {
@@ -597,5 +601,9 @@ $colours: map-merge(
     @media print {
       display: none;
     }
+  }
+
+  .resume-timeline {
+    font-style: italic;
   }
 }
